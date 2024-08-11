@@ -13,13 +13,24 @@
             text-decoration: none;
             color: black;
         }
+        .Login-Jusify_contain{
+            display: flex;
+            justify-content: center;
+        }
         .Login-Form{
             display: flex;
             flex-direction: column;
+            width: 50%;
+            align-items: center;
+            /*border: solid 2px blueviolet;/*/
+            
 
         }
         .Login-Form input{
             margin-top: 20px;
+            display: flex;
+            
+           
         }
        
     </style>
@@ -34,12 +45,12 @@
         </div>
         <a href="">Login</a>
     </nav>
-    <form class="Login-Form">
+    <section class="Login-Jusify_contain"><form class="Login-Form">
         <h3>Please Login</h3>
-        <input type="email" name="" id="" placeholder="Your Email">
-        <input type="password" name="" id="" placeholder="Your Password">
+        <input type="email" name="" id="" placeholder="Your Email" required>
+        <input type="password" name="" id="" placeholder="Your Password" required>
         <input type="submit" value="Login">
-    </form>
+    </form> </section>
 
 </body>
 </html>
